@@ -16,14 +16,18 @@ impact on their business."
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- stylesheet -->
     <link rel="stylesheet" href="./css/main.css" />
     <!-- scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
+    <script src="./assets/scripts/aos.js" defer></script>
     <script src="./assets//scripts/app.js" defer></script>
     <title>Taski</title>
   </head>
   <body>
-    <div class="grid-top">
+    <div class="grid-top" data-aos="fade-down" data-aos-delay="500">
       <img
         src="./assets//img/top-grid.svg"
         alt="top grid"
@@ -32,7 +36,7 @@ impact on their business."
     </div>
 
     <!-- NAVBAR -->
-    <nav class="navbar">
+    <nav class="navbar" data-aos="fade-down" data-aos-delay="500">
       <h1 class="navbar__logo">Taski</h1>
       <button class="navbar__btn">Try it free</button>
     </nav>
@@ -43,14 +47,24 @@ impact on their business."
       <!-- HERO -->
       <section class="home">
         <!-- grids -->
-        <div class="grid-right">
+        <div
+          class="grid-right"
+          data-aos="fade-left"
+          data-aos-delay="500"
+          data-aos-duration="1000"
+        >
           <img
             src="./assets//img/right-grid.svg"
             alt="right grid"
             class="grid-right__image"
           />
         </div>
-        <div class="grid-left">
+        <div
+          class="grid-left"
+          data-aos="fade-right"
+          data-aos-delay="500"
+          data-aos-duration="1000"
+        >
           <img
             src="./assets//img/left-grid.svg"
             alt="left grid"
@@ -61,18 +75,40 @@ impact on their business."
 
         <section class="wrapper">
           <div class="home_content">
-            <h1 class="main__title">
+            <h1
+              class="main__title"
+              data-aos="fade-down"
+              data-aos-delay="1000"
+              data-aos-duration="1200"
+            >
               Task management <br />
               and lists Tool
             </h1>
-            <p class="main__text">
+            <p
+              class="main__text"
+              data-aos="fade-down"
+              data-aos-delay="1200"
+              data-aos-duration="1500"
+            >
               We believe that designing products and services in close
               partnership with our clients is the only way to have a real impact
               on their business.
             </p>
-            <button class="btn">Get Started</button>
+            <button
+              class="btn"
+              data-aos="fade-down"
+              data-aos-delay="1500"
+              data-aos-duration="1800"
+            >
+              Get Started
+            </button>
           </div>
-          <div class="home__banner">
+          <div
+            class="home__banner"
+            data-aos="fade-down"
+            data-aos-delay="1700"
+            data-aos-duration="1000"
+          >
             <img src="./assets/img/banner-img.png" alt="banner image" />
           </div>
         </section>
@@ -82,11 +118,23 @@ impact on their business."
       <!-- FEATURED -->
       <section class="featured">
         <section class="wrapper">
-          <h2 class="main__title">Featured Service that We Provide</h2>
+          <h2
+            class="main__title"
+            data-aos="fade-up"
+            data-aos-delay="500"
+            data-aos-duration="1000"
+          >
+            Featured Service that We Provide
+          </h2>
           <!-- card list -->
           <section class="featured-cards">
             <!-- single card -->
-            <article class="featured-cards__card">
+            <article
+              class="featured-cards__card"
+              data-aos="fade-up"
+              data-aos-delay="1000"
+              data-aos-duration="1000"
+            >
               <img src="./assets/img/feature-one.png" alt="feature one" />
               <h2>Keep tasks in one place</h2>
               <p class="featured-cards__text">
@@ -96,7 +144,12 @@ impact on their business."
             </article>
             <!-- end single card -->
             <!-- single card -->
-            <article class="featured-cards__card">
+            <article
+              class="featured-cards__card"
+              data-aos="fade-up"
+              data-aos-delay="1500"
+              data-aos-duration="1000"
+            >
               <img src="./assets/img/feature-two.png" alt="feature two" />
               <h2>Keep tasks in one place</h2>
               <p class="featured-cards__text">
@@ -106,7 +159,12 @@ impact on their business."
             </article>
             <!-- end single card -->
             <!-- single card -->
-            <article class="featured-cards__card">
+            <article
+              class="featured-cards__card"
+              data-aos="fade-up"
+              data-aos-delay="2000"
+              data-aos-duration="1000"
+            >
               <img src="./assets/img/feature-three.png" alt="feature three" />
               <h2>Keep tasks in one place</h2>
               <p class="featured-cards__text">
@@ -124,14 +182,24 @@ impact on their business."
       <!-- OBJECTIVE -->
       <section class="objective">
         <!-- grids -->
-        <div class="grid-right">
+        <div
+          class="grid-right"
+          data-aos="fade-left"
+          data-aos-delay="500"
+          data-aos-duration="1000"
+        >
           <img
             src="./assets/img/right-grid.svg"
             alt="right grid"
             class="grid-right__image"
           />
         </div>
-        <div class="grid-left">
+        <div
+          class="grid-left"
+          data-aos="fade-right"
+          data-aos-delay="500"
+          data-aos-duration="1000"
+        >
           <img
             src="./assets/img/left-grid.svg"
             alt="left grid"
@@ -141,7 +209,12 @@ impact on their business."
         <!--end  grids -->
 
         <section class="wrapper">
-          <div class="objective__content">
+          <div
+            class="objective__content"
+            data-aos="fade-left"
+            data-aos-delay="1500"
+            data-aos-duration="1000"
+          >
             <h1 class="main__title">
               Why do you need<br />
               task management<br />
@@ -155,7 +228,12 @@ impact on their business."
             </p>
             <button class="btn">Learn more</button>
           </div>
-          <div class="objective__banner">
+          <div
+            class="objective__banner"
+            data-aos="fade-right"
+            data-aos-delay="1500"
+            data-aos-duration="1000"
+          >
             <img src="./assets/img/feature-four.png" alt="banner image" />
           </div>
         </section>
@@ -166,7 +244,12 @@ impact on their business."
 
       <section class="workflow">
         <section class="wrapper">
-          <div class="workflow__content">
+          <div
+            class="workflow__content"
+            data-aos="fade-right"
+            data-aos-delay="1000"
+            data-aos-duration="1000"
+          >
             <h1 class="main__title">
               Seamless Team <br />
               Workflow & Efficient <br />
@@ -193,7 +276,12 @@ impact on their business."
               /></a>
             </article>
           </div>
-          <div class="workflow__banner">
+          <div
+            class="workflow__banner"
+            data-aos="fade-left"
+            data-aos-delay="1000"
+            data-aos-duration="1000"
+          >
             <img src="./assets/img/workflow.png" alt="banner image" />
           </div>
         </section>
@@ -203,14 +291,24 @@ impact on their business."
       <!-- SUBSCRIBE -->
       <section class="subscribe">
         <!-- grids -->
-        <div class="grid-right">
+        <div
+          class="grid-right"
+          data-aos="fade-left"
+          data-aos-delay="500"
+          data-aos-duration="1000"
+        >
           <img
             src="./assets/img/right-grid.svg"
             alt="right grid"
             class="grid-right__image"
           />
         </div>
-        <div class="grid-left">
+        <div
+          class="grid-left"
+          data-aos="fade-right"
+          data-aos-delay="500"
+          data-aos-duration="1000"
+        >
           <img
             src="./assets/img/left-grid.svg"
             alt="left grid"
@@ -220,7 +318,12 @@ impact on their business."
         <!--end  grids -->
 
         <section class="wrapper">
-          <article class="subscribe-card">
+          <article
+            class="subscribe-card"
+            data-aos="fade-up"
+            data-aos-delay="1000"
+            data-aos-duration="1500"
+          >
             <h2 class="main__title">Get better work done</h2>
             <p>See why millions of people across 195 countries use Dash.</p>
 
@@ -242,7 +345,12 @@ impact on their business."
     <!-- END MAIN CONTENT -->
 
     <!-- FOOTER -->
-    <footer class="footer">
+    <footer
+      class="footer"
+      data-aos="fade-up"
+      data-aos-delay="500"
+      data-aos-duration="1000"
+    >
       <section class="wrapper">
         <article class="footer-wrapper">
           <div class="brand">
