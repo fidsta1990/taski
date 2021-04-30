@@ -326,13 +326,18 @@ impact on their business."
           >
             <h2 class="main__title">Get better work done</h2>
             <p>See why millions of people across 195 countries use Dash.</p>
-
-            <form id="subscribe-form">
+            <p id="my-form-status"></p>
+            <form
+              id="subscribe-form"
+              method="POST"
+              action="https://formspree.io/f/xrgreqjr"
+            >
               <div class="subscribe-form__group">
                 <input
                   type="text"
                   placeholder="Name@company.com"
                   id="subscribe-form__control"
+                  name="_replyto"
                 />
                 <button class="subscribe-form__btn">Get In Touch</button>
               </div>
